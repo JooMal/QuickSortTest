@@ -54,14 +54,14 @@
 <a name="4"></a>
 # makegraph_quicksorttest.py 사용법
 - 해당 파일은 Google Colab에서 작성되었으며, txt파일 입력을 위해 Google Colab 사용을 권장합니다.
-1. 각 코드블럭은 `Ctrl`+`Enter`를 사용하여 실행할 수 있습니다. 첫 코드블럭을 선택하면, 다음과 같은 인증 문구가 만들어집니다.
+1. 각 코드블럭은 `Ctrl`+`Enter`를 사용하여 실행할 수 있습니다. 첫 코드블럭을 선택하면, 다음과 같은 인증 문구가 만들어집니다.  
 
 <img src="/img/googleAuth.JPG">
 
-  1.1. Go to this URL in a browser 이후의 주소창을 클릭하여 인증창을 띄웁니다.
-  1.2. 구글 인증을 진행합니다.
-  1.3. 하단에 생성된 인증코드를 복사합니다. 오른쪽의 클립보드 복사 버튼을 클릭하면 보다 효율적으로 복사가 가능합니다.
-  1.4. 복사한 인증코드를 Enter your authorization code 하단의 여백칸에 입력 후 엔터를 치면 인증이 완료됩니다.
-2. 이전에 `QuickSortTest` 프로젝트를 시행하며 생성된 `result.txt`파일을 Google Drive 루트(=`/content/gdrive/My Drive/`)에서 `resData` 폴더를 생성한 후, 해당 폴더에 `result.txt`파일을 복사합니다. 반드시 `resData` 폴더여야하며, 폴더명을 바꾸고 싶을 경우에는 `with ... as file object`문의 파일 루트를 변경해주어야 합니다.
-3. 그래프 생성을 위해 맨 하단의 코드블럭까지 차례로 실행하면, 파싱을 통해 array에 데이터를 저장한 후 해당 데이터를 그래프로 변환할 수 있습니다. 만약 따로 파일로 저장하기 원할 경우에는 `savefig`을 사용하여 저장할 수 있습니다.
+  1.1. Go to this URL in a browser 이후의 주소창을 클릭하여 인증창을 띄웁니다.  
+  1.2. 구글 인증을 진행합니다.    
+  1.3. 하단에 생성된 인증코드를 복사합니다. 오른쪽의 클립보드 복사 버튼을 클릭하면 보다 효율적으로 복사가 가능합니다.  
+  1.4. 복사한 인증코드를 Enter your authorization code 하단의 여백칸에 입력 후 엔터를 치면 인증이 완료됩니다.  
+2. 이전에 `QuickSortTest` 프로젝트를 시행하며 생성된 `result.txt`파일을 Google Drive 루트(=`/content/gdrive/My Drive/`)에서 `resData` 폴더를 생성한 후, 해당 폴더에 `result.txt`파일을 복사합니다. 반드시 `resData` 폴더여야하며, 폴더명을 바꾸고 싶을 경우에는 `with ... as file object`문의 파일 루트를 변경해주어야 합니다.  
+3. 그래프 생성을 위해 맨 하단의 코드블럭까지 차례로 실행하면, 파싱을 통해 array에 데이터를 저장한 후 해당 데이터를 그래프로 변환할 수 있습니다. 만약 따로 파일로 저장하기 원할 경우에는 `savefig`을 사용하여 저장할 수 있습니다.  
 
