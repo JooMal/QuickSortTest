@@ -11,6 +11,8 @@
 
 <img src="/img/consoleQuickSortTest.JPG">
 
+- 해당 테스트를 사용한 레파지토리 글 링크는 [이곳](https://github.com/JooMal/ProblemSolving/tree/master/SortAlgorithm)입니다.
+
 1. 레파지토리에 포함되어 있는 QuickSortTest.exe 파일을 다운로드받아 더블클릭하여 실행합니다.
 2. 콘솔창에서 질의에 따라 원하는 값을 입력합니다.
   2.1. **START NUMBER OF ARRAY NODE** : 배열 요소의 시작 갯수를 입력합니다. 해당 갯수부터 사용자가 정하는 increment를 매 loop마다 증가하며 quick sort를 시행합니다. 배열 내부의 값은 0부터 배열길이 사이의 랜덤값으로 할당됩니다. 해당 갯수가 클 수록 프로그램의 iteration 당 실행 시간이 늘어나며, 테스트에 사용한 값은 10,000 입니다.  
